@@ -147,5 +147,24 @@ Destination unreacheble:
 - Source MAC: 3-4-5-6-7-8
 
 
+## Cisco IOS Befehle
+- enable
+- configure terminal
+- interface FastEthernet x/y
+- ip address ...
+- no shutdown
+- host name
+- copy running-config startup-config
+- show ip route
 
-**To Be Continued**
+Shortcut zum benden strg+shift+6  
+
+### Switch
+Beim neustarten ohne config alle Ports in VLan 1 als Trunk.  
+Unterschied zwischen access und trunk Port.  
+Access Port:  
+Idee: Das Netz klein halten d.h. überall wo ein Ethernet brodcast herumrast soll klein sein.  
+Ethernetnrodcast domein  
+Man wolölte mit der gleichen infrastrucktur netze trennen daher Virtual Lan.  
+Lösung: Im ethernet gibt es 1 VLan nummer(Erwiterung 802.1Q). Der Switch kann bei Access Port diese Nummer vergeben und der frame kann bei allen Acess/Trunk Ports mit dieser nummer raus.  
+uplink = Trunk
